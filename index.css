@@ -1,0 +1,19 @@
+table.tableSimple {
+    margin: auto;
+    border: 1px solid black;
+}
+
+.headDiv {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+table, th, td{
+  border: 1px solid #ddd;
+}
+
+th, td{
+  text-align: center;
+  padding: 20px;
+}
