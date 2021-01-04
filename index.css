@@ -1,6 +1,14 @@
+body{
+  background-image: url(../assets/1567666.png);
+}
+
 table.tableSimple {
     margin: auto;
     border: 1px solid black;
+}
+h3,h1,h2{
+  text-align: center;
+  color: #fff;
 }
 
 .headDiv {
@@ -10,7 +18,11 @@ table.tableSimple {
 }
 
 table, th, td{
+  background-color: #66ccff;
   border: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
 }
 
 th, td{
