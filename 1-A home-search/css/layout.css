@@ -1,0 +1,144 @@
+.upper_header_layout,.bottom_header_layout, .main_body_layout, .footer{
+    
+    width: 1002px; 
+    margin: 0 auto;
+}
+
+
+
+.upper_header{
+    background-color: #7dd9e8;
+    width: 100%;
+    margin: 0px;
+    height: 85px;
+    float: left;
+}
+
+.bottom_header{
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: 0px;
+    float: left;
+    height: 40px;  
+}
+.logo{
+    background-color: #264f55;
+    float: left;
+    width: 224px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 25px;
+    
+    
+}
+.search{
+    background-color: #caeff7;
+    float: left;
+    width: 275px;
+    height:20px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.search_button{
+    background-color: #264f55;
+    float:left;
+    width: 53px;
+    height:20px;
+    margin-top: 40px;
+    
+}
+.profile{
+    float: right;
+    width: 145px;
+    height: 35px;
+    background-color: white;
+    margin-top: 28px;
+}
+.bottom_header_list{
+    background-color: #2fb2be;
+    float:left;
+    height: 14px;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+.name{
+    background-color: goldenrod;
+    float: right;
+}
+.home{
+    background-color: greenyellow;
+    float:right;   
+}
+.topic{
+    width: 140px;
+    background-color: #23cb33;
+    float: right;
+    margin-top: 13px;
+    margin-right: 2px;
+    
+}
+
+.main_body_wrapper{
+    clear: both;
+}
+.main_body_layout{    
+    height: 606px;
+    background-color: white;
+    overflow: hidden;
+    
+    margin-bottom: 32px;
+
+    
+}
+.left{
+    width: 194px;
+    float: left;
+    margin-top: 30px;
+}
+.recent_searches{
+    background-color: violet;
+    height: 606px;
+}
+.recent_searches_header{
+    height: 42px;
+    background-color: tomato;
+
+}
+.recent_searches_list{
+    background-color: teal;
+    height: 90px;
+}
+.main_content{
+    float: right;
+    background-color: wheat;
+    margin-top: 30px;
+}
+.r_right{
+    background-color: thistle;
+    float: right;
+    width: 177px;
+    height: 606px;
+    margin-left: 24px;
+}
+.video_tutorials{
+    background-color: aquamarine;
+    height: 606px;
+}
+.video_tutorials_header{
+    background-color: aqua;
+    height: 42px;
+}
+.video_tutorials_list{
+    background-color:blue;
+    height: 282px;
+}
+
+.footer_wrapper{
+    
+    width: 100%;
+    background-color:#727272;
+}
+.footer{
+    height: 45px;
+    
+}
