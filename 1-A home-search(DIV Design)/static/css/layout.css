@@ -4,6 +4,8 @@
     margin: 0 auto;
 }
 
+
+
 .upper_header{
     background-color: #7dd9e8;
     width: 100%;
@@ -21,92 +23,52 @@
 }
 .logo{
     
-    background-image: url(../img/logo.png);
+    background-color: #264f55;
     float: left;
     width: 224px;
     height: 50px;
     margin-top: 20px;
     margin-right: 25px;
+    
+    
 }
 .search{
     background-color: #caeff7;
     float: left;
+    width: 275px;
+    height:20px;
     margin-top: 40px;
     margin-right: 10px;
-    
 }
-.search_box_item{
-    float: right;
-}
-.searchL{
-    background-image:url(../img/searchL.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    
-    
-}
-.searchR{
-    background-image:url(../img/searchR.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-}
-input{
-    background: transparent;
-    border-width: 0;
-    margin-left: 10px;  
-    margin-right: 10px; 
-    width: 237px;
-}
-
-a{display: block;
-    text-align: center;
-    color: white;
-    
-}
-
 .search_button{
     background-color: #264f55;
     float:left;
-    width: 65px;
+    width: 53px;
+    height:20px;
     margin-top: 40px;
-}
-.search_btnL{
-    background-image:url(../img/btnL.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-
-    
-}
-.search_btnR{
-    background-image:url(../img/btnR.png);
-    background-position: top right;
-    background-repeat: no-repeat;
     
 }
 .profile{
     float: right;
+    width: 145px;
+    height: 35px;
+    background-color: white;
     margin-top: 28px;
-    
 }
 .bottom_header_list{
+    background-color: #2fb2be;
     float:left;
     height: 14px;
     margin-top: 16px;
-    margin-right: 32px;
+    margin-right: 5px;
 }
 .name{
-    text-align: right;
-    text-transform: capitalize;
+    background-color: goldenrod;
+    float: right;
 }
-.home ul {
-    line-height: 15px;
-}
-.home ul li{
-    
-    float: left;
-    width: auto;
-    padding: 0 5px;
-    font-size: 8pt;
+.home{
+    background-color: greenyellow;
+    float:right;   
 }
 .topic{
     width: 140px;
@@ -116,9 +78,6 @@ a{display: block;
     margin-right: 2px;
     
 }
-body{
-    font-family: Arial;
-}
 
 .main_body_wrapper{
     clear: both;
@@ -127,7 +86,10 @@ body{
     height: 606px;
     background-color: white;
     overflow: hidden;
+    
     margin-bottom: 32px;
+
+    
 }
 .left{
     width: 194px;
@@ -139,10 +101,9 @@ body{
     height: 606px;
 }
 .recent_searches_header{
-    padding: 20px;
-    color: white;
-    background-color: #7dd9e8;
-    
+    height: 42px;
+    background-color: tomato;
+
 }
 .recent_searches_list{
     background-color: teal;
@@ -150,7 +111,7 @@ body{
 }
 .main_content{
     float: right;
-    
+    background-color: wheat;
     margin-top: 30px;
 }
 .r_right{
@@ -165,21 +126,23 @@ body{
     height: 606px;
 }
 .video_tutorials_header{
-    background-color: #7dd9e8;
-    color: white;
-    padding: 20px;
+    background-color: aqua;
+    height: 42px;
 }
 .video_tutorials_list{
     background-color:blue;
     height: 282px;
 }
 .right {
+    background:lightgreen;
     float: right;
     width: 520px;
     height: 606px;
   }
 .right_title{
+    background:lightpink;
     width: 96px;
+    height: 24px;
     margin-bottom: 12px;
 }
 .menu{
