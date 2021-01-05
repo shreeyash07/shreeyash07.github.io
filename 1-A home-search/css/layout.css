@@ -174,6 +174,28 @@
     
 }
 
+  
+.posts {
+    background:rosybrown;
+    overflow: hidden;
+    height: 70px;
+    margin-top: 16px;
+  }
+  
+.profile_image {
+    background:orchid;
+    float: left;
+    height: 70px;
+    width: 70px;
+  }
+  
+.posts_details{
+    background:mintcream;
+    float: right;
+    width: 420px;
+    height: 70px;
+  }
+
 .footer_wrapper{
     
     width: 100%;
@@ -182,4 +204,12 @@
 .footer{
     height: 45px;
     
+}
+.copyright{
+    float: right;
+    margin-top: 18px;
+}
+.footer_list{
+    float: left;
+    margin-top: 18px;
 }
