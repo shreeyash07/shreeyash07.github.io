@@ -1,6 +1,6 @@
 .upper_header_layout,.bottom_header_layout, .main_body_layout, .footer{
     
-    width: 1002px; 
+    width: 938px; 
     margin: 0 auto;
 }
 
@@ -131,6 +131,47 @@
 .video_tutorials_list{
     background-color:blue;
     height: 282px;
+}
+.right {
+    background:lightgreen;
+    float: right;
+    width: 520px;
+    height: 606px;
+  }
+.right_title{
+    background:lightpink;
+    width: 96px;
+    height: 24px;
+    margin-bottom: 12px;
+}
+.menu{
+    height: 68px;
+}
+.all_entries_menu{
+    width: 259px;
+    float:left;
+    background-color: lightsalmon;
+    margin-right: 2px;
+}
+.menu_title_left{
+    height:36px;
+    background-color: lime;
+    
+    
+}
+.sub_menu_left{
+    height:28px;
+    background-color: magenta;
+    float:left;
+    width: 238px;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+.subscribe_menu{
+    width: 259px;
+    float:right;
+    background-color: lightsalmon;
+    
 }
 
 .footer_wrapper{
