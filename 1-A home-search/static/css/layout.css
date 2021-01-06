@@ -346,7 +346,7 @@ input{
     height:100%
 }
 .post_content ul li {
-    padding: 15px 0;
+    padding-top: 10px;
     border-bottom: #d8d8d8 solid 1px;
     height: 100%;
     width: 100%;
@@ -403,9 +403,8 @@ input{
     float: left;
 } 
 .post_title{
-    padding-top: 6px;
     padding-right: 6px;
-    padding-bottom: 6px;
+    
 
 }
 /*footer*/
