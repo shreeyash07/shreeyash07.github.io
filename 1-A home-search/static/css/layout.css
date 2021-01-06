@@ -1,8 +1,14 @@
 .upper_header_layout,.bottom_header_layout, .main_body_layout, .footer{
-    
+    overflow: hidden;
     width: 938px; 
     margin: 0 auto;
 }
+.bottom_header_list{
+    float: left;
+}
+.body_w {
+    min-width: 1002px;
+  }
 
 
 ul li a {
@@ -27,6 +33,7 @@ ul {
 .logo{
     
     background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
     float: left;
     width: 224px;
     height: 50px;
@@ -41,6 +48,7 @@ ul {
     margin-right: 10px;
     background-color: #caeff7;
     overflow: hidden;
+    height:20px
     
 }
 .search a {
@@ -48,6 +56,7 @@ ul {
 }
 .search_box_item{
     float: right;
+    padding-right: 10px;
 }
 
 .searchL{
@@ -141,22 +150,23 @@ input{
     list-style-type: none;
     display: inline-block;
     margin-left:5px;
-    float:right;
-    
 }
-.topic ul li:last-child{
+.topic ul li:first-child{
    
     background-image: url(../img/topic-box-image.png);
     background-repeat: no-repeat;
     display: inline-block;
     padding-left: 16px;
+    margin-left: 10px;
+    
 }
-.topic ul li:first-child{
+.topic ul li:last-child{
     background-image: url(../img/friend.png)  ;
     background-repeat: no-repeat;
     display: inline-block;
     color: grey;
-    padding-left: 16px;
+    padding-left: 17px;
+    
     
 }
 
@@ -166,7 +176,7 @@ input{
     overflow: hidden;
 }
 .main_body_layout{    
-    height: 606px;
+    height: 667px;
     background-color: white;
     overflow: hidden;
     margin-bottom: 32px;
@@ -211,7 +221,7 @@ input{
 .recent_searches_list ul li a {
     display: block;
     text-decoration: none;
-    padding: 15px 10px;
+    padding: 5px 5px;
 }
 .recent_searches_list ul li a:hover {
     background-color: #ffffff;
@@ -224,6 +234,9 @@ input{
 
 
 /*right and main content*/
+.main_entries{
+    border-bottom: 6px solid #2fc1da;
+}
 .curveL{
     background-image:url(../img/all_entriesL.png);
     background-position: top left;
@@ -350,7 +363,12 @@ input{
     border-bottom: #d8d8d8 solid 1px;
     height: 100%;
     width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 8px;
   }
+
 
 .posts div a:hover{
     color: #8ee4f3
@@ -391,17 +409,12 @@ input{
   .posts_topic_box span {
     display: inline-block;
   }
-.post_content ul li{
-    list-style-type: none;
-    overflow: hidden;
-}
-.post_content ul li img{
-    float: left;
 
+.post_content ul li img{
+    
+float: left;
 }
-.post_content ul li{
-    float: left;
-} 
+
 .post_title{
     padding-right: 6px;
     
