@@ -35,19 +35,26 @@ ul {
     margin-bottom: 16px;
 }
 .search{
-    background-color: #caeff7;
+    
     float: left;
     margin-top: 40px;
     margin-right: 10px;
+    background-color: #caeff7;
+    overflow: hidden;
     
+}
+.search a {
+    display: block;
 }
 .search_box_item{
     float: right;
 }
+
 .searchL{
     background-image:url(../img/searchL.png);
     background-position: top left;
     background-repeat: no-repeat;
+    
     
     
 }
@@ -55,13 +62,15 @@ ul {
     background-image:url(../img/searchR.png);
     background-position: top right;
     background-repeat: no-repeat;
+   
 }
 input{
-    background: transparent;
     border-width: 0;
-    margin-left: 10px;  
-    margin-right: 10px; 
+    padding-left: 10px;  
+    padding-right: 10px; 
     width: 237px;
+    background: transparent;
+    font-size: 9pt;
 }
 .search_button{
     background-color: #264f55;
@@ -73,14 +82,17 @@ input{
     background-image:url(../img/btnL.png);
     background-position: top left;
     background-repeat: no-repeat;
-
-    
 }
 .search_btnR{
     background-image:url(../img/btnR.png);
     background-position: top right;
     background-repeat: no-repeat;
-    
+    font-size: 9pt;
+    text-align: center;
+    height:20px
+}
+.search_btnR a{
+    color: white;
 }
 .profile{
     float: right;
@@ -137,12 +149,14 @@ input{
     background-image: url(../img/topic-box-image.png);
     background-repeat: no-repeat;
     display: inline-block;
+    padding-left: 16px;
 }
 .topic ul li:first-child{
     background-image: url(../img/friend.png)  ;
     background-repeat: no-repeat;
     display: inline-block;
     color: grey;
+    padding-left: 16px;
     
 }
 
@@ -289,6 +303,7 @@ input{
 }
 .menu{
     height: 68px;
+    text-align: center;
 }
 
 .all_entries_menu{
@@ -328,11 +343,15 @@ input{
     float:left;
     padding: 0 10px;
     overflow: hidden;
+    height:100%
 }
 .post_content ul li {
     padding: 15px 0;
     border-bottom: #d8d8d8 solid 1px;
+    height: 100%;
+    width: 100%;
   }
+
 .posts div a:hover{
     color: #8ee4f3
 }
