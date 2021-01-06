@@ -3,22 +3,24 @@
     width: 938px; 
     margin: 0 auto;
 }
+a{display: block;
+}
+body{
+    font-family: Arial;
+}
+ul li a {
+    text-decoration: none;
+}
+
+/*header*/
 
 .upper_header{
     background-color: #7dd9e8;
     width: 100%;
-    margin: 0px;
-    height: 85px;
     float: left;
+    overflow: hidden;
 }
 
-.bottom_header{
-    background-color: #f5f5f5;
-    width: 100%;
-    margin: 0px;
-    float: left;
-    height: 40px;  
-}
 .logo{
     
     background-image: url(../img/logo.png);
@@ -27,6 +29,7 @@
     height: 50px;
     margin-top: 20px;
     margin-right: 25px;
+    margin-bottom: 16px;
 }
 .search{
     background-color: #caeff7;
@@ -57,13 +60,6 @@ input{
     margin-right: 10px; 
     width: 237px;
 }
-
-a{display: block;
-    text-align: center;
-    color: white;
-    
-}
-
 .search_button{
     background-color: #264f55;
     float:left;
@@ -88,12 +84,6 @@ a{display: block;
     margin-top: 28px;
     
 }
-.bottom_header_list{
-    float:left;
-    height: 14px;
-    margin-top: 16px;
-    margin-right: 32px;
-}
 .name{
     text-align: right;
     text-transform: capitalize;
@@ -102,26 +92,55 @@ a{display: block;
     line-height: 15px;
 }
 .home ul li{
-    
     float: left;
     width: auto;
     padding: 0 5px;
     font-size: 8pt;
 }
-.topic{
-    width: 140px;
-    background-color: #23cb33;
-    float: right;
-    margin-top: 13px;
-    margin-right: 2px;
+/*bottom header*/
+.bottom_header{
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
     
 }
-body{
-    font-family: Arial;
+.bottom_header_list ul li{
+    float:left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    list-style-type:none;
+    margin-right: 32px;
+}
+.topic{
+    float: right;
+    margin-top: 13px;
+    font-size: 14px; 
+    margin-bottom: 10px;
+
+}
+.topic ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left:5px;
+    
+}
+.topic ul li:last-child{
+    background-image: url(../img/friend.png)  ;
+    background-repeat: no-repeat;
+    background: top left;
+    
+
+}
+.topic ul li:first-child{
+    background-image: url(../img/topic-box-image.png);
+    background-repeat: no-repeat;
 }
 
+/*main*/
 .main_body_wrapper{
     clear: both;
+    overflow: hidden;
 }
 .main_body_layout{    
     height: 606px;
@@ -129,28 +148,77 @@ body{
     overflow: hidden;
     margin-bottom: 32px;
 }
+/*left*/
 .left{
-    width: 194px;
     float: left;
     margin-top: 30px;
+    
 }
 .recent_searches{
-    background-color: violet;
     height: 606px;
+    background-color:#f5f5f5 ;
 }
 .recent_searches_header{
-    padding: 20px;
+    background-color: #72bfd7;
     color: white;
-    background-color: #7dd9e8;
+    line-height: 42px;
+    padding: 0 11px;
+    font-size: 13px;
     
 }
 .recent_searches_list{
-    background-color: teal;
-    height: 90px;
+    width: 194px;
+    background-color: #f5f5f5;
+    float: left;
+    
+}
+.recent_searches_list ul li {
+    list-style-type: none;
+}
+.recent_searches_list ul li a:first-child{
+    padding: 15px 13px;
+    display: block;
+    font-size: 12px;
+    color: #000;
+}
+
+
+/*right and main content*/
+.curveL{
+    background-image:url(../img/all_entriesL.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+.curveR{
+    background-image:url(../img/all_entriesR.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+
+}
+.memberCurveL{
+    background-image:url(../img/memberCurveL.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+.memberCurveR{
+    background-image:url(../img/memberCurveR.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.submenu_inactiveR{
+    background-image:url(../img/submenu_inactiveCurveR.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.submenu_inactiveL{
+    background-image:url(../img/submenu_inactiveCurveL.png);
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 .main_content{
     float: right;
-    
     margin-top: 30px;
 }
 .r_right{
@@ -161,7 +229,7 @@ body{
     margin-left: 24px;
 }
 .video_tutorials{
-    background-color: aquamarine;
+    background-color: #f5f5f5;
     height: 606px;
 }
 .video_tutorials_header{
@@ -185,57 +253,79 @@ body{
 .menu{
     height: 68px;
 }
+
 .all_entries_menu{
     width: 259px;
     float:left;
-    background-color: lightsalmon;
+    background-color: #f5f5f5;
     margin-right: 2px;
 }
 .menu_title_left{
     height:36px;
-    background-color: lime;
-    
-    
 }
+
 .sub_menu_left{
     height:28px;
-    background-color: magenta;
     float:left;
-    width: 238px;
+    width: 115px;
     margin-left:10px ;
+    margin-right: 5px;
+    background-color:#2fc1d8 ;
+}
+
+.sub_menu_right{
+    height:28px;
+    float:right;
+    width: 115px;
     margin-right: 10px;
+    background-color:#dddddd ;
 }
 .subscribe_menu{
     width: 259px;
     float:right;
-    background-color: lightsalmon;
-    
+    background-color:  #f5f5f5;
 }
 
-  
-.posts {
-    background:rosybrown;
+.post_content ul li{
+    list-style-type: none;
     overflow: hidden;
-    height: 70px;
-    margin-top: 16px;
+}
+.posts {
+    padding: 0 10px;
+    float: right;
+    
   }
-  
-.profile_image {
-    background:orchid;
+.post_type{
+    color: #2e9db0;
+    font-size: 10px;
+    font-weight: bold;
+}
+.post_title{
+    padding: 6px 0;
     float: left;
-    height: 70px;
-    width: 70px;
-  }
+}
   
 .posts_details{
-    background:mintcream;
+    font-size: 11px;
+    color: #707070;
+}
+.posts_topic_box{
+    font-size: 11px;
+    color: #707070;
+    padding-top: 6px;
+    float: left;
+}
+.author_name{
+    float:right;
+}
+.date{
     float: right;
-    width: 420px;
-    height: 70px;
-  }
-
+}
+.subscribed{
+    float: right;
+}
+/*footer*/
 .footer_wrapper{
-    
     width: 100%;
     background-color:#727272;
 }
@@ -245,9 +335,34 @@ body{
 }
 .copyright{
     float: right;
-    margin-top: 18px;
+    color: #fff;
+    padding: 19px 2px;
+    font-size: 11px;
 }
 .footer_list{
     float: left;
-    margin-top: 18px;
+    color: #ffffff;
+    padding: 19px 2px;
+
 }
+.footer_list ul  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}
+.footer_list ul li {
+    background: url(../img/dot.png) no-repeat;
+    background-position: 0;
+    width: auto;
+    font-weight: bold;
+    float: left;
+    padding: 0px 7px;
+}
+.footer_list ul li:first-child {
+    background: none;
+}
+.footer_list ul li a {
+    text-decoration: none;
+    color:#fff;
+  }

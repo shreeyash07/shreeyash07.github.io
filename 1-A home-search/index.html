@@ -47,12 +47,22 @@
 
             <div class = "bottom_header">          
                 <div class = "bottom_header_layout">
-                    <div class ="bottom_header_list"><p>Create New Entry</p></div>
-                    <div class ="bottom_header_list"><p>My Topic Boxes</p></div> 
-                    <div class ="bottom_header_list"><p>Friends</p></div>
-                    <div class ="bottom_header_list"><p>Invite New Members</p></div> 
-                    <div class= "topic"><p>Friend Request</p></div> 
-                    <div class= "topic"><p>Topic</p></div> 
+                    <div class = "bottom_header_list">
+                    <ul>
+                    <li class ="newEntry"><p title="" href="#">Create New Entry</p></li>
+                    <li class ="Topic"><p title="" href="#">My Topic Boxes</p></li> 
+                    <li class ="Friends"><p title="" href="#">Friends</p></li>
+                    <li class ="invite"><p title="" href="#">Invite New Members</p></li> 
+                    </ul>
+                    </div>
+
+                    <div class="topic" >
+                        <ul>
+                          <li class="topicleft"><p title="" href="#">Topic Boxes Invite - <span>2 </span> </p></li>
+                          <li class="friendright"><p title="" href="#">Friend Request - <span>0</span></p></li>
+                        </ul>
+                    </div>
+                    
                 </div>  
             </div>    
               
@@ -64,21 +74,57 @@
                         <div class ="recent_searches_header">
                             <p>Recent Searches</p>
                         </div>
-                        <div class="recent_searches_list"><p>Recent list</p>
-                            </div>
+                        <div class="recent_searches_list">
+                          <ul>
+                            <li>
+                              <a title="" href="#">Nick Cave and the Bad Seeds</a>
+                              <a title="" href="#"><span><img src="./static/img/download.png" alt="download"></span></a>
+                            </li>
+                            <li>
+                              <a title="" href="#">African Animals</a> 
+                              <a title="" href="#"> <span><img src="./static/img/download.png" alt="download"></span></a>
+                          </li>
+                          </ul>
+
+                        </div>
+                        <div class ="recent_searches_header">
+                          <p>Recent Searches</p>
+                        </div>
+                        <div class="recent_searches_list" clearfix>
+                        <ul>
+                          <li>
+                            <a title="" href="#">Different versions of the Tristan and Isolde Prelude</a>
+                            <a title="" href="#"><span class = "burger_menu"><img src="./static/img/burger-menu.png" alt="download"></span></a>
+                          </li>
+                          <li>
+                            <a title="" href="#"> Music</a> 
+                            <a title="" href="#"> <span class = "burger_menu"><img src="./static/img/burger-menu.png" alt="download"></span></a>
+                        </li>
+                        </ul>
+
+                      </div>
                         
                     </div>
                 </div>
                 <div class = "main_content">
                     <div class = "r_right">
                         <div class = "video_tutorials">
-                            <div class ="video_tutorials_header">
+                            <div class ="recent_searches_header">
                                 <p>Video Tutorials</p>
                                 
                             </div>
-                            <div class = "video_tutorials_list">
-                                <p>Video Tutorials List</p>
-
+                            <div class = "recent_searches_list">
+                              <ul>
+                                <li><a title="" href="#"> Overview Of TuTangle </a></li>
+                                <li><a title="" href="#"> Searching the Site </a></li>
+                                <li><a title="" href="#"> Previous & Saved Searches </a></li>
+                                <li><a title="" href="#"> The Topic Box Page </a></li>
+                                <li><a title="" href="#"> Creating a Topic Box </a></li>
+                                <li><a title="" href="#"> View Topic Box Entries </a></li>
+                                <li><a title="" href="#"> Creating an Entry</a></li>
+                                <li><a title="" href="#"> Privacy Settings </a></li>
+                                <li><a title="" href="#"> Co-Authoring </a></li>
+                              </ul>
                             </div>
 
                         </div>
@@ -91,62 +137,146 @@
                         <div class = "main_entries">
                             <div class= "menu">
                                 <div class ="all_entries_menu">
-                                    <div class = "menu_title_left">
-                                        <p>All Entries</p>
+                                    <div class = "curveL">
+                                        <div class = "menu_title_left">
+                                            <p>All Entries</p>
+                                        </div>
+                                        <div class = "sub_menu_left">
+                                            <div class= "memberCurveL">
+                                                <div class = "memberCurveR">
+                                                    <p>all members</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "sub_menu_right">
+                                            <div class = "submenu_inactiveR">
+                                                <div class = "submenu_inactiveL">
+                                                    <P>Friends</P>
+                                                </div>
+                                            </div>  
+                                        </div>
                                     </div>
-                                    <div class = "sub_menu_left">
-                                        <p>All Members   Friends</p>
-                                    </div>
-                                    
                                 </div>
                                 <div class ="subscribe_menu">
-                                    <div class = "menu_title_left">
-                                        <p>Subscribed</p>
+                                    <div class = "curveR">
+                                        <div class = "menu_title_left">
+                                            <p>Subscribe</p>
+                                        </div>
+                                        <div class = "sub_menu_right">
+                                            <div class= "submenu_inactiveR">
+                                                <div class = "submenu_inactiveL">
+                                                    <p>New Entry</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "sub_menu_right">
+                                            <div class = "submenu_inactiveR">
+                                                <div class = "submenu_inactiveL">
+                                                    <P>New Comments</P>
+                                                </div>
+                                            </div>  
+                                        </div>
                                     </div>
-                                    <div class = "sub_menu_left">
-                                        <p>New Entries  New Comments</p>
-                                    </div>
-                                    
-                                </div>
                                 </div>
 
                         </div>
                         <div class="post_content">
-
-                            <div class="posts">
-                              <div class="profile_image">
-                                <p>Image</p>
-                              </div>
-                              <div class="posts_details">
-                                <p>Entry Content</p>
-                              </div>
-                            </div>
-                            <div class="posts">
-                                <div class="profile_image">
-                                  <p>Image</p>
-                                </div>
-                                <div class="posts_details">
-                                  <p>Entry Content</p>
-                                </div>
-                              </div>
-                              <div class="posts">
-                                <div class="profile_image">
-                                  <p>Image</p>
-                                </div>
-                                <div class="posts_details">
-                                  <p>Entry Content</p>
-                                </div>
-                              </div>
-                              <div class="posts">
-                                <div class="profile_image">
-                                  <p>Image</p>
-                                </div>
-                                <div class="posts_details">
-                                  <p>Entry Content</p>
-                                </div>
-                              </div>    
-
-                            
+                            <ul>
+                                <li>
+                                    <img alt="" src="./static/img/user-img-1.png" />
+                                    <div class="posts">
+                                    
+                                    <div class="post_type"><a></a></div>
+                                    <div class="post_title">
+                                      Day for Night By Francis Truffaut, a ground breaking film
+                                    </div>
+                                    <div class="posts_details">
+                                      by <span class="author_name"><a>Alex Coe</a></span> |
+                                      <span class="date">February 10 2012</span> |
+                                      <span class="subscribed"><a>Subscribed</a></span>
+                                    </div>
+                                    <From class="posts_topic_box">From Topic Box:
+                                      <span class="author-name">
+                                          <a>My Favorite Movies</a>
+                                        </span>
+                                    </div>
+                                  
+                                <li>
+                                  <img alt="" src="./static/img/user-img-2.png" />
+                                  <div class="posts">
+                                    <div class="post_type"><a>NEW ENTRY!</a></div>
+                                    <div class="post_title">
+                                      Bade Runner, The Director's Cut
+                                    </div>
+                                    <div class="posts_details">
+                                      by <span class="author-name"><a>Mary Pilot</a></span> |
+                                      <span class="date">February 8 2012</span> |
+                                      <span class="subscribed"><a></a></span>
+                                    </div>
+                                    <div class="posts_topic_box">
+                                      From Topic Box:
+                                      <span class="author-name"><a>Behind the Scene</a></span>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <img alt="" src="./static/img/user-img-3.png" />
+                                  <div class="posts">
+                                    <div class="post_type"><a>NEW COMMENT!</a></div>
+                                    <div class="post_title">
+                                      The Best French Restaurant in Chicago?
+                                    </div>
+                                    <div class="posts_details">
+                                      by <span class="author-name"><a>Jim Roy</a></span> |
+                                      <span class="date">February 7 2021</span> |
+                                      <span class="subscribed"><a></a></span>
+                                    </div>
+                                    <div class="posts_topic_box">
+                                      From Topic Box:
+                                      <span class="author-name"
+                                        ><a>Chicago Restauraunt Reviews</a></span
+                                      >
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <img alt="" src="./static/img/user-img-4.png" />
+                                  <div class="posts">
+                                    <div class="post_type"><a></a></div>
+                                    <div class="post_title">
+                                      Meaning of Night. Dark Book but incredibly well written
+                                    </div>
+                                    <div class="posts_details">
+                                      by
+                                      <span class="author-name"><a>John-Peter Moise</a></span> |
+                                      <span class="date">February 7 2021</span> |
+                                      <span class="subscribed"><a>Subscribed</a></span>
+                                    </div>
+                                    <div class="posts_topic_box">
+                                      From Topic Box:
+                                      <span class="author-name"
+                                        ><a>Books Read & Books to Read</a></span
+                                      >
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <img alt="" src="./static/img/user-img-5.png" />
+                                  <div class="posts">
+                                    <div class="post_type alert"><a>TOPIC BOX INVITE!</a></div>
+                                    <div class="post_title">Pea Pesto</div>
+                                    <div class="posts_detail">
+                                      by <span class="author-name"><a>Marianne Gig</a></span> |
+                                      <span class="date">February 10 2021</span> |
+                                      <span class="subscribed"><a></a></span>
+                                    </div>
+                                    <div class="posts_topic_box">
+                                      From Topic Box:
+                                      <span class="author-name"><a>Favorite Recipes</a></span>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
                         </div>
                     </div>
 
@@ -158,12 +288,16 @@
         <div class = "footer_wrapper">        
             <div class = "footer">
                 <div class="footer_list">
-                    <p>
-                      About Us • Contact Us • Terms of Use • Privacy Policy • Feedback
-                    </p>
+                  <ul>
+                    <li><a title="" href="#">About Us</a></li>
+                    <li><a title="" href="#">Contact Us</a></li>
+                    <li><a title="" href="#">Term of Use</a></li>
+                    <li><a title="" href="#">Privacy Policy</a></li>
+                    <li><a title="" href="#">Feedback</a></li>
+                  </ul>
                   </div>
                   <div class="copyright">
-                    <p>C TuTangle 2013</p>
+                    © TuTangle 2013</p>
                   </div>
             </div>
         </div>
