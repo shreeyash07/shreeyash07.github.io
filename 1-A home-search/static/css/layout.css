@@ -3,14 +3,17 @@
     width: 938px; 
     margin: 0 auto;
 }
-a{display: block;
-}
-body{
-    font-family: Arial;
-}
+
+
 ul li a {
     text-decoration: none;
 }
+ul {
+    list-style-type: disc;
+}
+.clearfix {
+    overflow: auto;
+  }
 
 /*header*/
 
@@ -90,6 +93,7 @@ input{
 }
 .home ul {
     line-height: 15px;
+    list-style-type: none;
 }
 .home ul li{
     float: left;
@@ -111,30 +115,35 @@ input{
     margin-bottom: 15px;
     list-style-type:none;
     margin-right: 32px;
+    font-size: 11pt;
 }
 .topic{
     float: right;
     margin-top: 13px;
     font-size: 14px; 
     margin-bottom: 10px;
+    width: 304px;
 
 }
 .topic ul li {
     list-style-type: none;
     display: inline-block;
     margin-left:5px;
+    float:right;
     
 }
 .topic ul li:last-child{
-    background-image: url(../img/friend.png)  ;
-    background-repeat: no-repeat;
-    background: top left;
-    
-
-}
-.topic ul li:first-child{
+   
     background-image: url(../img/topic-box-image.png);
     background-repeat: no-repeat;
+    display: inline-block;
+}
+.topic ul li:first-child{
+    background-image: url(../img/friend.png)  ;
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: grey;
+    
 }
 
 /*main*/
@@ -175,11 +184,28 @@ input{
 .recent_searches_list ul li {
     list-style-type: none;
 }
-.recent_searches_list ul li a:first-child{
-    padding: 15px 13px;
-    display: block;
+.recent_searches_list ul li a span{
+    padding-right: 18px;
+    width:80%;
+    display: inline-block;
     font-size: 12px;
     color: #000;
+    width: 80%;
+    font-size: 9pt;
+
+}
+.recent_searches_list ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+.recent_searches_list ul li a:hover {
+    background-color: #ffffff;
+}
+.recent_searches_list ul li a img{
+    float:right;
+    padding: 2px;
+    
 }
 
 
@@ -189,6 +215,20 @@ input{
     background-position: top left;
     background-repeat: no-repeat;
 
+}
+.curveL a{
+    font-size: 9pt;
+    
+    display:inline-block;
+    text-decoration: none;
+    color:#000000;
+}
+.curveR a{
+    font-size: 9pt;
+    
+    display:inline-block;
+    text-decoration: none;
+    color:#000000;
 }
 .curveR{
     background-image:url(../img/all_entriesR.png);
@@ -237,18 +277,15 @@ input{
     color: white;
     padding: 20px;
 }
-.video_tutorials_list{
-    background-color:blue;
-    height: 282px;
-}
+
 .right {
     float: right;
     width: 520px;
-    height: 606px;
+    height: 100%;
   }
 .right_title{
-    width: 96px;
-    margin-bottom: 12px;
+    font-size: 24pt;
+    padding-bottom: 5px;
 }
 .menu{
     height: 68px;
@@ -261,7 +298,9 @@ input{
     margin-right: 2px;
 }
 .menu_title_left{
-    height:36px;
+    padding: 12px 0;
+    font-size: 10pt;
+    
 }
 
 .sub_menu_left{
@@ -285,44 +324,70 @@ input{
     float:right;
     background-color:  #f5f5f5;
 }
-
-.post_content ul li{
-    list-style-type: none;
+.posts{
+    float:left;
+    padding: 0 10px;
     overflow: hidden;
 }
-.posts {
-    padding: 0 10px;
-    float: right;
-    
+.post_content ul li {
+    padding: 15px 0;
+    border-bottom: #d8d8d8 solid 1px;
   }
-.post_type{
+.posts div a:hover{
+    color: #8ee4f3
+}
+.post_type  a {
     color: #2e9db0;
     font-size: 10px;
     font-weight: bold;
+  }
+.post_type.alert a {
+    color: #d53f1c;  
 }
-.post_title{
-    padding: 6px 0;
-    float: left;
-}
-  
 .posts_details{
     font-size: 11px;
     color: #707070;
+
 }
-.posts_topic_box{
+.posts_details span{
+    display: inline-block;
+}
+.author-name a {
+    color: #2e9db0;
+    font-weight: bold;
+  }
+.subscribed a {
+    color: #709720;
+    font-weight: bold;
+}
+.posts_topic_box {
     font-size: 11px;
     color: #707070;
     padding-top: 6px;
     float: left;
+  }
+  .posts_topic_box a {
+    color: #707070;
+  }
+  .posts_topic_box span {
+    display: inline-block;
+  }
+.post_content ul li{
+    list-style-type: none;
+    overflow: hidden;
 }
-.author_name{
-    float:right;
+.post_content ul li img{
+    float: left;
+
 }
-.date{
-    float: right;
-}
-.subscribed{
-    float: right;
+.post_content ul li{
+    float: left;
+} 
+.post_title{
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+
 }
 /*footer*/
 .footer_wrapper{
