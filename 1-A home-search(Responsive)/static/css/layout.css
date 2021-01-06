@@ -58,7 +58,7 @@ ul {
     float: right;
     padding-right: 10px;
     display: block;
-    height:20px
+    height: 20px;
 }
 
 .searchL{
@@ -66,6 +66,7 @@ ul {
     background-position: top left;
     background-repeat: no-repeat;
     height: 20px;
+    
     
     
 }
@@ -225,9 +226,7 @@ input{
 .recent_searches_list ul li a {
     display: block;
     text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    padding: 5px 5px;
 }
 .recent_searches_list ul li a:hover {
     background-color: #ffffff;
@@ -365,14 +364,14 @@ input{
     height:100%
 }
 .post_content ul li {
-    padding-top: 15px;
+    padding-top: 10px;
     border-bottom: #d8d8d8 solid 1px;
     height: 100%;
     width: 100%;
     list-style-type: none;
     overflow: hidden;
     float: left;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
   }
 
 
