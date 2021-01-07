@@ -27,6 +27,10 @@
   text-align: center;
   margin-top: 28px;
 }
+.search_icon {
+  float: right;
+  display: block;
+}
 .name {
   text-transform: capitalize;
 }
@@ -44,7 +48,14 @@
   margin-top: 13px;
   font-size: 14px;
   margin-bottom: 10px;
-  width: 100%;
+  float: right;
+}
+.burger_menu {
+  float: left;
+  margin-top: 16px;
+}
+.burger_menu:hover ~ .bottom_header_list {
+  display: block;
 }
 
 /*main*/
@@ -81,8 +92,12 @@
   display: none;
 }
 .recent_searches_list {
-  width: 194px;
   background-color: #f5f5f5;
+  float: left;
+  display: none;
+}
+.recent_searches_list2 {
+  width: 194px;
   float: left;
   display: none;
 }
@@ -140,6 +155,9 @@
   margin-right: 10px;
   background-color: #dddddd;
 }
+.sub_menu_right a:hover {
+  color: #ffffff;
+}
 .subscribe_menu {
   width: 49%;
   float: right;
@@ -172,12 +190,14 @@
   background-color: #727272;
 }
 .footer {
-  height: 45px;
+  text-align: center;
+}
+.footer ul li a:hover {
+  color: #dddddd;
 }
 .copyright {
-  float: right;
   color: #fff;
-  padding: 19px 2px;
+  padding: 19px;
   font-size: 11px;
 }
 .footer_list {
@@ -201,6 +221,15 @@
   }
   .recent_searches_list {
     display: block;
+  }
+  .copyright {
+    float: right;
+  }
+  .recent_searches_list2 {
+    display: block;
+  }
+  .recent_searches_list {
+    display: none;
   }
 }
 
@@ -236,6 +265,9 @@
   .recent_searches_list {
     display: block;
   }
+  .recent_searches_list2 {
+    display: block;
+  }
   .recent_searches_header2 {
     display: block;
   }
@@ -246,5 +278,15 @@
   .topic {
     float: right;
     width: 32.192411%;
+  }
+  .copyright {
+    float: right;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+  .search_icon {
+    display: none;
   }
 }
