@@ -3,9 +3,10 @@
   overflow: hidden;
 }
 .column1 {
+  overflow: hidden;
   width: 100%;
   background-image: url(../img/column1_background.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100%;
 }
 .header,
@@ -19,14 +20,19 @@
   margin: 0 auto;
   overflow: hidden;
 }
+.header {
+  margin-top: 2%;
+}
 .header_list {
   float: left;
 }
 .mid_header {
-  margin-left: 21.367521%;
-  margin-right: 21.367521%;
+  margin-top: 15%;
+  text-align: center;
 }
-
+.bottom_header {
+  padding-bottom: 2%;
+}
 .column2 {
   background-color: white;
   width: 100%;

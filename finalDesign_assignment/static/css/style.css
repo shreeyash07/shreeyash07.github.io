@@ -1,11 +1,28 @@
 .header ul li {
-  display: inline-block;
+  display: none;
   color: white;
-  font-size: 6.56pt;
+  font-size: 16pt;
+}
+.menu img {
+  float: left;
+}
+.menu {
+  background-size: 50% 50%;
+}
+.header_list ul {
+  position: absolute;
+}
+.menu:hover ~ .header_list ul li {
+  display: block;
+}
+.switch {
+  margin-left: 40%;
 }
 .switch a {
   font-family: NautilusPompilius;
   color: white;
+  font-size: 24pt;
+  margin: 0 auto;
 }
 .search {
   border-radius: 25px;
@@ -23,26 +40,36 @@ input {
   border: 0px;
 }
 .workwithus {
+  margin: 0 auto;
+  margin-top: 3%;
   border-radius: 25px;
   background-color: #54d154;
-  width: 17.777778%;
+  width: 21%;
   text-align: center;
   font-size: 8.9pt;
+  padding: 2%;
 }
-.mid_header a {
-  font-size: 8.9pt;
-  font-family: montserrat-bold;
+.mid_header .workwithus a {
+  font-size: 8pt;
 }
 .mid_header a {
   color: white;
-  font-size: 22.5pt;
+  font-size: 25pt;
+  font-family: Montserrat;
+  font-weight: 700;
 }
+
 .scroll_down {
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 2%;
   border-radius: 25px;
   background-color: #e8e7e7;
-  width: 120px;
+  width: 25%;
   text-align: center;
+  font-size: 10pt;
 }
+
 .what_we_do {
   text-align: center;
 }
@@ -217,6 +244,14 @@ input {
   width: 322px;
 }
 @media (min-width: 1170px) {
+  .header ul li {
+    display: inline-block;
+    color: white;
+    font-size: 16pt;
+  }
+  .menu {
+    display: none;
+  }
   .search {
     display: block;
   }
