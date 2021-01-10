@@ -1,0 +1,66 @@
+.main_wrapper {
+  width: 30em;
+  overflow: hidden;
+}
+.column1 {
+  width: 100%;
+  background-image: url(../img/column1_background.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+}
+.header,
+.mid_header,
+.testimonial,
+.happy_customers,
+.meet_the_team,
+.infos,
+.latest_work {
+  width: 94.957264%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header_list {
+  float: left;
+}
+.mid_header {
+  margin-left: 21.367521%;
+  margin-right: 21.367521%;
+}
+
+.column2 {
+  background-color: white;
+  width: 100%;
+}
+.column3,
+.column6 {
+  background-color: #54d154;
+  width: 100%;
+}
+.column5 {
+  background-color: #f2f1f1;
+  width: 100%;
+}
+.column7 {
+  width: 100%;
+  background-color: #333333;
+}
+.work_with_us {
+  width: 100%;
+  background-color: #3eba3e;
+  height: 92px;
+}
+.made_with {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 1170px) {
+  .main_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .column1 {
+    height: 41.1875em;
+  }
+}
