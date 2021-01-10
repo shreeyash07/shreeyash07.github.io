@@ -56,13 +56,12 @@ input {
   color: white;
   font-size: 25pt;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .scroll_down {
   margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 2%;
+
   border-radius: 25px;
   background-color: #e8e7e7;
   width: 25%;
@@ -72,19 +71,23 @@ input {
 
 .what_we_do {
   text-align: center;
+  color: #828181;
+  margin-top: 2%;
 }
 .border_line {
   margin: 0 auto;
   width: 43px;
   height: 2px;
   background-color: #a59d9d;
+  margin-top: 2%;
+}
+.details {
+  margin-top: 2%;
 }
 .whatwedo_info {
   text-align: center;
 }
-.whatwedo_info ul li img {
-  padding: 29px;
-}
+
 .whatwedo_info ul li {
   display: inline-block;
 }
@@ -93,7 +96,8 @@ input {
   background-color: #54d154;
   width: 120px;
   text-align: center;
-  margin-left: 60px;
+  margin: 0 auto;
+  margin-top: 5%;
 }
 .learn_more_button a {
   color: white;
@@ -102,30 +106,74 @@ input {
   display: inline-block;
 }
 .wwd_info1 {
-  width: 225px;
-  height: 334px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
 }
 .camerabk {
   border-radius: 10%;
   background-color: #e1f3e1;
-  width: 141px;
-  margin-left: 60px;
+  width: 40%;
+  margin: 0 auto;
 }
+.camerabk img {
+  width: 60%;
+  padding: 10%;
+}
+.info_title,
+.info_details {
+  color: #828181;
+  margin-top: 7%;
+  font-size: 8pt;
+}
+.info_title a {
+  font-weight: 800;
+  font-size: 10pt;
+}
+
+.latest_work,
+.what_we_do a {
+  color: #207b20;
+}
+.latest_work .border_line {
+  background-color: #207b20;
+}
+
 .work_choose {
-  border-radius: 25px;
-  background-color: #ffffff;
-  border-color: black;
-  border: 2px;
-  width: 280px;
+  margin-top: 5%;
   text-align: center;
-  margin: auto;
 }
 .work_choose ul li {
-  display: inline-block;
+  text-align: center;
+  display: inline;
+}
+.work_choose ul li a {
+  padding: 1%;
+}
+.photography {
+  border: 2px solid;
+  border-color: #207b20;
+  border-radius: 25px 0 0 25px;
+  background-color: white;
+}
+.design {
+  border: 2px solid;
+  border-color: #207b20;
+  background-color: white;
+}
+.print {
+  border: 2px solid;
+  border-color: #207b20;
+  border-radius: 0 25px 25px 0;
+  background-color: white;
+}
+.photos {
+  margin-top: 5%;
+  margin-left: 3.5%;
 }
 .photos ul li {
-  width: 160px;
-  height: 160px;
+  width: 80px;
+  height: 80px;
   display: inline-block;
 }
 .photos ul li img {
