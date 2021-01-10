@@ -149,6 +149,7 @@ input {
 }
 .work_choose ul li a {
   padding: 1%;
+  color: #207b20;
 }
 .photography {
   border: 2px solid;
@@ -170,6 +171,7 @@ input {
 .photos {
   margin-top: 5%;
   margin-left: 3.5%;
+  margin-bottom: 5%;
 }
 .photos ul li {
   width: 80px;
@@ -181,17 +183,51 @@ input {
   height: 100%;
 }
 .view_more_work {
+  margin: 0 auto;
+  margin-bottom: 5%;
   background-color: #2b9b2b;
   border-radius: 25px;
   color: #ffffff;
   width: 186px;
   text-align: center;
 }
+.testimonial_content {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 8pt;
+  text-align: center;
+  margin-top: 5%;
+}
+.testimonial_details {
+  overflow: hidden;
+  width: 50%;
+  margin-left: 20%;
+  float: left;
+}
+
+.left_arrow {
+  float: left;
+}
+.right_arrow {
+  float: right;
+}
+
 .herp {
   display: inline-block;
+  font-size: 8pt;
+  margin: 0 auto;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.company_logo {
+  width: 90%;
+  margin: 0 auto;
 }
 .company_logo ul li {
-  display: inline-block;
+  display: block;
+  margin-top: 5%;
+  margin-left: 35%;
 }
 .see_all_client {
   background-color: #dddcdc;
@@ -199,17 +235,23 @@ input {
   color: #a59d9d;
   width: 186px;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .team {
   margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .team ul li {
   display: inline-block;
+  font-size: 8pt;
 }
 
 .tmember img {
-  width: 124px;
-  height: 124px;
+  width: 60px;
+  height: 60px;
   border-radius: 100px;
 }
 .vertical_border {
@@ -217,10 +259,9 @@ input {
   width: 2px;
   height: 77px;
   background-color: #207b20;
+  display: none;
 }
-.testimonial_content {
-  text-align: center;
-}
+
 .profile_img1 {
   float: left;
 }
@@ -229,23 +270,45 @@ input {
   background-color: #c5e9c5;
   width: 84px;
   display: inline-block;
+  margin-top: 5%;
+}
+.dbt img {
+  padding: 2%;
 }
 .work_with_us_button {
   background-color: #54d154;
   border-radius: 25px;
   width: 175px;
   margin: 0 auto;
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .about_us {
   text-align: center;
   display: inline-block;
 
+  font-size: 8pt;
+}
+.footer1 {
+  color: white;
+}
+.about_us a {
   font-size: 16pt;
+}
+.recent_posts {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+}
+.about_us p {
+  margin-top: 5%;
 }
 .images {
   width: 54px;
   height: 54px;
-  float: left;
 }
 .images img {
   width: 100%;
@@ -254,42 +317,59 @@ input {
 .posts_footer {
   margin: 0 auto;
   display: inline-block;
+  width: 95%;
+  margin-top: 5%;
 }
 .posts_footer ul li {
   list-style-type: none;
+  margin-top: 3.5%;
 }
-.title {
-  float: left;
-}
+
 .type1 {
   border-radius: 5px;
   background-color: #54d154;
-  width: 82px;
+
+  width: 30%;
+  margin: 0 auto;
 }
 .type2 {
   border-radius: 5px;
   background-color: #ffba00;
-  width: 82px;
+
+  width: 30%;
+  margin: 0 auto;
 }
 .type3 {
   border-radius: 5px;
   background-color: #089dea;
-  width: 82px;
+  width: 30%;
+  margin: 0 auto;
 }
 .type4 {
   border-radius: 5px;
   background-color: #f34d04;
-  width: 82px;
+  width: 30%;
+  margin: 0 auto;
 }
 .type5 {
   border-radius: 5px;
   background-color: #ffba00;
-  width: 82px;
+  width: 30%;
+  margin: 0 auto;
 }
 .send_button {
   border-radius: 5px;
   background-color: #2b9b2b;
   width: 322px;
+}
+.news_logo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.news_logo img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
 }
 @media (min-width: 1170px) {
   .header ul li {
