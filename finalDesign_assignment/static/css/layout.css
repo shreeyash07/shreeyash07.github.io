@@ -1,5 +1,5 @@
 .main_wrapper {
-  width: 30em;
+  min-width: 30em;
   overflow: hidden;
 }
 .column1 {
@@ -34,7 +34,7 @@
 }
 .bottom_header {
   margin-bottom: 2%;
-  margin-top: 10%;
+  margin-top: 100px;
   padding-bottom: 2%;
 }
 .column2 {
@@ -76,5 +76,19 @@
   }
   .column1 {
     height: 41.1875em;
+  }
+  .bottom_header {
+    margin-top: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .main_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .column1 {
+  }
+  .bottom_header {
+    margin-top: 200px;
   }
 }
