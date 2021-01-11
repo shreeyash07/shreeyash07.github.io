@@ -64,7 +64,7 @@ input {
 
   border-radius: 25px;
   background-color: #e8e7e7;
-  width: 25%;
+  width: 120px;
   text-align: center;
   font-size: 10pt;
 }
@@ -299,7 +299,7 @@ input {
 }
 .recent_posts {
   margin: 0 auto;
-  text-align: center;
+
   margin-top: 5%;
   width: 100%;
 }
@@ -309,6 +309,7 @@ input {
 .images {
   width: 54px;
   height: 54px;
+  float: left;
 }
 .images img {
   width: 100%;
@@ -320,47 +321,95 @@ input {
   width: 95%;
   margin-top: 5%;
 }
+
 .posts_footer ul li {
   list-style-type: none;
   margin-top: 3.5%;
+  display: inline-block;
+  width: 90%;
+}
+.posts_details {
+  overflow: hidden;
+}
+.images_title {
+  margin-left: 5%;
 }
 
 .type1 {
   border-radius: 5px;
   background-color: #54d154;
-
+  overflow: hidden;
   width: 30%;
-  margin: 0 auto;
+  margin-left: 5%;
 }
 .type2 {
   border-radius: 5px;
   background-color: #ffba00;
-
+  overflow: hidden;
   width: 30%;
-  margin: 0 auto;
+  margin-left: 5%;
 }
 .type3 {
   border-radius: 5px;
   background-color: #089dea;
   width: 30%;
-  margin: 0 auto;
+  margin-left: 5%;
+
+  overflow: hidden;
 }
 .type4 {
   border-radius: 5px;
   background-color: #f34d04;
   width: 30%;
-  margin: 0 auto;
+  margin-left: 5%;
+  overflow: hidden;
 }
 .type5 {
   border-radius: 5px;
   background-color: #ffba00;
   width: 30%;
+  margin-left: 5%;
+  overflow: hidden;
+}
+.contact_us {
+  text-align: center;
+  margin-top: 5%;
+}
+.contact_details {
   margin: 0 auto;
+  margin-top: 5%;
+  width: 50%;
+}
+.inputs {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.name {
+  width: 90%;
+  background-color: #444444;
+  height: 20px;
+}
+.email {
+  width: 90%;
+  background-color: #444444;
+  height: 20px;
+  margin-top: 2%;
+}
+.message {
+  width: 90%;
+
+  height: 100px;
+  margin-top: 2%;
+  background-color: #444444;
 }
 .send_button {
   border-radius: 5px;
   background-color: #2b9b2b;
-  width: 322px;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 2%;
 }
 .news_logo {
   margin-top: 5%;
@@ -371,12 +420,20 @@ input {
   display: block;
   margin-top: 5%;
 }
+.info_title a {
+  color: #828181;
+}
+.intro a {
+  color: black;
+}
+
 @media (min-width: 1170px) {
   .header ul li {
     display: inline-block;
     color: white;
-    font-size: 16pt;
+    font-size: 11pt;
   }
+
   .menu {
     display: none;
   }
@@ -385,11 +442,66 @@ input {
   }
   .switch {
     float: left;
+    margin-left: 45%;
+  }
+  .camerabk {
+    width: 144px;
+    height: 144px;
+  }
+  .camerabk img {
+    margin-top: 13%;
   }
   .mid_header a {
     font-size: 55px;
   }
+  .info_title a {
+    font-size: 16pt;
+  }
+  .info_details p {
+    font-size: 11pt;
+  }
   .mid_header .workwithus a {
     font-size: 21.89pt;
+  }
+  .wwd_info1 {
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+  }
+  .whatwedo_info {
+    overflow: hidden;
+    margin-left: 18%;
+    margin-right: 5%;
+  }
+
+  .whatwedo_info ul li {
+    display: inline;
+  }
+
+  .bottom_header {
+    margin-bottom: 2%;
+    margin-top: 17%;
+    padding-bottom: 2%;
+  }
+  .scroll_down a {
+    color: black;
+  }
+  .workwithus a {
+    font-weight: 400;
+  }
+  .workwithus {
+    padding: 1%;
+  }
+  .photos ul li {
+    width: 160px;
+    height: 160px;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  .testimonial_details {
+    font-size: 11pt;
+  }
+  .herp {
+    margin-left: 40%;
   }
 }
