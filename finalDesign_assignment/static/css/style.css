@@ -426,6 +426,9 @@ input {
 .intro a {
   color: black;
 }
+.column6_name {
+  text-align: center;
+}
 
 @media (min-width: 1170px) {
   .header ul li {
@@ -503,5 +506,30 @@ input {
   }
   .herp {
     margin-left: 40%;
+  }
+  .company_logo ul li {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .tmember img {
+    width: 125px;
+    height: 125px;
+  }
+  .vertical_border {
+    display: block;
+  }
+  .team ul li,
+  .team {
+    margin-left: 5%;
+  }
+  .dbt {
+    margin-left: 20%;
+  }
+  .column6_name {
+    font-size: 12pt;
+    margin-top: 5%;
   }
 }
