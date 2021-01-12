@@ -441,6 +441,7 @@ input {
 
 @media (min-width: 1170px) {
   .header ul li {
+    margin-right: 15px;
     display: inline-block;
     color: white;
     font-size: 11pt;
@@ -452,6 +453,11 @@ input {
   .search {
     display: block;
   }
+
+  .search input {
+    padding: 8px;
+  }
+
   .switch {
     float: left;
     margin-left: 45%;
@@ -573,4 +579,8 @@ input {
     margin: 0 auto;
     margin-right: 5%;
   }
+}
+
+.column1 {
+  height: 90vh;
 }
