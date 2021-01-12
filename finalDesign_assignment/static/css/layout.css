@@ -67,6 +67,7 @@
   background-color: black;
   text-align: center;
   color: white;
+  padding: 20px;
 }
 
 @media (min-width: 1170px) {
