@@ -7,7 +7,7 @@
   width: 100%;
   background-image: url(../img/column1_background.jpg);
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 .header,
 .mid_header,
@@ -27,6 +27,8 @@
 }
 .header_list {
   float: left;
+  top: 8px;
+  position: relative;
 }
 .mid_header {
   margin-top: 15%;
@@ -72,26 +74,28 @@
   padding: 20px;
 }
 
-@media (min-width: 1170px) {
-  .main_wrapper {
-    width: 100%;
-    overflow: hidden;
-  }
-  .column1 {
-    height: 41.1875em;
-  }
-  .bottom_header {
-    margin-top: 200px;
-  }
-}
 @media (min-width: 768px) {
   .main_wrapper {
     width: 100%;
     overflow: hidden;
   }
   .column1 {
+    height: 75vh;
   }
   .bottom_header {
     margin-top: 200px;
+  }
+}
+@media (min-width: 1170px) {
+  .main_wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .bottom_header {
+    margin-top: 200px;
+  }
+  .column1 {
+    height: 100vh;
   }
 }

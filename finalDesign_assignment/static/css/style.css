@@ -9,14 +9,13 @@
 .menu {
   background-size: 50% 50%;
 }
-.header_list ul {
-  position: absolute;
-}
+
 .menu:hover ~ .header_list ul li {
   display: block;
 }
 .switch {
   margin-left: 40%;
+  float: left;
 }
 .switch a {
   font-family: NautilusPompilius;
@@ -27,7 +26,7 @@
 .search {
   border-radius: 25px;
   float: right;
-  width: 177px;
+  width: 189px;
   background-color: #e8e7e7;
   margin-top: 5px;
   display: none;
@@ -44,13 +43,14 @@ input {
   margin-top: 3%;
   border-radius: 25px;
   background-color: #54d154;
-  width: 21%;
+  width: 118px;
   text-align: center;
-  font-size: 8.9pt;
-  padding: 2%;
+  font-size: 14pt;
+  padding: 1%;
 }
 .mid_header .workwithus a {
   font-size: 8pt;
+  font-weight: 400;
 }
 .mid_header a {
   color: white;
@@ -61,7 +61,7 @@ input {
 
 .scroll_down {
   margin: 0 auto;
-
+  padding: 0.5%;
   border-radius: 25px;
   background-color: #e8e7e7;
   width: 120px;
@@ -130,12 +130,12 @@ input {
   font-weight: 800;
   font-size: 10pt;
 }
-
-.latest_work,
-.what_we_do a {
+.latest_work_title {
+  text-align: center;
   color: #207b20;
+  margin-top: 2%;
 }
-.latest_work .border_line {
+.latest_work_title .border_line {
   background-color: #207b20;
 }
 
@@ -156,6 +156,14 @@ input {
   border-color: #207b20;
   border-radius: 25px 0 0 25px;
   background-color: white;
+  position: relative;
+  left: 10px;
+}
+.photography:hover,
+.design:hover,
+.print:hover {
+  color: #ffffff;
+  background-color: #207b20;
 }
 .design {
   border: 2px solid;
@@ -167,15 +175,22 @@ input {
   border-color: #207b20;
   border-radius: 0 25px 25px 0;
   background-color: white;
+  position: relative;
+  right: 10px;
 }
 .photos {
   margin: 0 auto;
   width: 95%;
+  text-align: center;
 }
 .photos ul li {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   display: inline-block;
+
+  position: relative;
+  top: 28px;
+  margin: 1%;
 }
 .photos ul li img {
   width: 100%;
@@ -183,12 +198,14 @@ input {
 }
 .view_more_work {
   margin: 0 auto;
-  margin-bottom: 5%;
   background-color: #2b9b2b;
   border-radius: 25px;
   color: #ffffff;
   width: 186px;
   text-align: center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  padding: 1%;
 }
 .testimonial_content {
   width: 90%;
@@ -200,7 +217,7 @@ input {
 .testimonial_details {
   overflow: hidden;
   width: 50%;
-  margin-left: 20%;
+  margin-left: 24%;
   float: left;
 }
 
@@ -215,13 +232,15 @@ input {
   display: inline-block;
   font-size: 8pt;
   margin: 0 auto;
-  margin-left: 35%;
+  margin-left: 41%;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 128px;
 }
 .company_logo {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 .company_logo ul li {
   display: block;
@@ -238,6 +257,13 @@ input {
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding: 1%;
+}
+.see_all_client a {
+  color: #a59d9d;
+}
+.see_all_client a:hover {
+  color: #ffffff;
 }
 .team {
   margin: 0 auto;
@@ -285,12 +311,14 @@ input {
   text-align: center;
   color: white;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 1%;
+}
+.work_with_us_button a:hover {
+  color: #3eba3e;
 }
 .about_us {
   text-align: center;
   display: inline-block;
-
-  font-size: 8pt;
 }
 .footer1 {
   color: white;
@@ -327,7 +355,7 @@ input {
   list-style-type: none;
   margin-top: 3.5%;
   display: inline-block;
-  width: 90%;
+  width: 63%;
 }
 .posts_details {
   overflow: hidden;
@@ -340,18 +368,18 @@ input {
   border-radius: 5px;
   background-color: #54d154;
   overflow: hidden;
-  width: auto;
+  width: 81px;
 }
 .type2 {
   border-radius: 5px;
   background-color: #ffba00;
   overflow: hidden;
-  width: auto;
+  width: 77px;
 }
 .type3 {
   border-radius: 5px;
   background-color: #089dea;
-  width: auto;
+  width: 107px;
   margin-left: 5%;
 
   overflow: hidden;
@@ -359,14 +387,14 @@ input {
 .type4 {
   border-radius: 5px;
   background-color: #f34d04;
-  width: auto;
+  width: 47px;
 
   overflow: hidden;
 }
 .type5 {
   border-radius: 5px;
   background-color: #ffba00;
-  width: auto;
+  width: 77px;
 
   overflow: hidden;
 }
@@ -376,6 +404,8 @@ input {
 .type4,
 .type5 {
   margin: 0px auto 0px 15%;
+  font-size: 8pt;
+  margin-top: 2px;
 }
 .contact_us {
   text-align: center;
@@ -438,6 +468,47 @@ input {
 .scroll_down a {
   color: black;
 }
+.about_us,
+.recent_posts,
+.contact_us {
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 8pt;
+}
+@media (min-width: 768px) {
+  .photos {
+    width: 90%;
+  }
+  .photos ul li {
+    margin: 3%;
+  }
+  .mid_header .workwithus a {
+    font-size: 14pt;
+    font-weight: 400;
+  }
+  .workwithus {
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color: #54d154;
+    width: 208px;
+    text-align: center;
+    font-size: 14pt;
+    padding: 1%;
+  }
+  .about_us,
+  .recent_posts,
+  .contact_us {
+    width: 33.33%;
+    float: left;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 6pt;
+  }
+  .posts_footer ul li {
+    width: 90%;
+  }
+}
 
 @media (min-width: 1170px) {
   .header ul li {
@@ -452,15 +523,24 @@ input {
   }
   .search {
     display: block;
+    position: relative;
   }
 
   .search input {
     padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .search_icon {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 166px;
   }
 
   .switch {
     float: left;
-    margin-left: 45%;
+    margin-left: 15%;
   }
   .camerabk {
     width: 144px;
@@ -479,7 +559,7 @@ input {
     font-size: 11pt;
   }
   .mid_header .workwithus a {
-    font-size: 21.89pt;
+    font-size: 17pt;
   }
   .wwd_info1 {
     width: 25%;
@@ -495,6 +575,16 @@ input {
   .whatwedo_info ul li {
     display: inline;
   }
+  .workwithus {
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color: #54d154;
+    width: 208px;
+    text-align: center;
+    font-size: 14pt;
+    padding: 1%;
+  }
 
   .bottom_header {
     margin-bottom: 2%;
@@ -508,16 +598,24 @@ input {
   .workwithus {
     padding: 1%;
   }
+  .photos {
+    width: 100%;
+  }
   .photos ul li {
     width: 160px;
     height: 160px;
-    margin: 3%;
+    margin: 2%;
+    position: relative;
+  }
+  .view_more_work {
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
   .testimonial_details {
     font-size: 11pt;
   }
   .herp {
-    margin-left: 40%;
+    margin-left: 45%;
   }
   .company_logo {
     text-align: center;
@@ -538,7 +636,11 @@ input {
     display: block;
   }
   .team ul li {
-    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .team ul li:last-child {
+    margin: 0;
   }
 
   .column6_name {
@@ -552,6 +654,10 @@ input {
     float: left;
     margin: 0 auto;
     margin-top: 5%;
+    font-size: 11pt;
+  }
+  .posts_footer ul li {
+    width: 90%;
   }
   .contact_details {
     width: 90%;
@@ -565,7 +671,7 @@ input {
   .type4,
   .type5 {
     margin: 0 auto;
-    width: auto;
+
     float: left;
     margin-left: 15%;
   }
@@ -575,10 +681,9 @@ input {
   .news_logo ul li {
     display: inline-block;
     margin: 0 auto;
-    margin-right: 5%;
+    margin-left: 5%;
   }
-}
-
-.column1 {
-  height: 90vh;
+  .news_logo ul li:first-child {
+    margin: 0;
+  }
 }
