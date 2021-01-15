@@ -404,30 +404,35 @@ input {
   background-color: #54d154;
   overflow: hidden;
   width: 81px;
+  margin-right: 5%;
 }
 .type2 {
   border-radius: 5px;
   background-color: #ffba00;
   overflow: hidden;
   width: 77px;
+  margin-right: 5%;
 }
 .type3 {
   border-radius: 5px;
   background-color: #089dea;
   width: 107px;
   overflow: hidden;
+  margin-right: 5%;
 }
 .type4 {
   border-radius: 5px;
   background-color: #f34d04;
   width: 77px;
   overflow: hidden;
+  margin-right: 5%;
 }
 .type5 {
   border-radius: 5px;
   background-color: #ffba00;
   width: 77px;
   overflow: hidden;
+  margin-right: 5%;
 }
 .type1,
 .type2,
@@ -721,7 +726,6 @@ input {
   .type3,
   .type4,
   .type5 {
-    margin: 0 auto;
     float: left;
   }
   .news_logo {
