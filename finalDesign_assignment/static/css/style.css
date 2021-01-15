@@ -270,10 +270,10 @@ input {
   text-align: center;
 }
 .company_logo ul li {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
-  width: 90%;
-  margin-top: 5%;
+  width: 40%;
+  margin-top: 8%;
   transition: transform 0.5s;
   cursor: pointer;
 }
