@@ -390,7 +390,7 @@ input {
   margin-top: 3.5%;
   display: inline-block;
   width: 63%;
-  margin-left: 5%;
+  margin-left: 12%;
 }
 .posts_details {
   overflow: hidden;
@@ -485,8 +485,8 @@ input {
   margin-top: 2%;
 }
 .news_logo {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .news_logo img {
   margin: 0 auto;
@@ -514,6 +514,14 @@ input {
   margin: 0 auto;
   margin-top: 5%;
   font-size: 8pt;
+}
+.as_seen_title {
+  color: black;
+  text-align: center;
+  margin-top: 1%;
+}
+.as_seen_title .border_line {
+  background-color: black;
 }
 @media (min-width: 768px) {
   .photos {
@@ -695,6 +703,9 @@ input {
     margin: 0 auto;
     margin-top: 5%;
     font-size: 11pt;
+  }
+  .recent_posts {
+    margin-bottom: 5%;
   }
   .posts_footer ul li {
     width: 90%;

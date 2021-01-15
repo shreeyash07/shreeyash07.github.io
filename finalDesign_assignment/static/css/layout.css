@@ -53,12 +53,13 @@
   background-color: #f2f1f1;
   width: 100%;
 }
-.column7,
-.column8 {
-  width: 100%;
+.column7 {
   background-color: #333333;
 }
-
+.column8 {
+  width: 100%;
+  background-color: #222222;
+}
 .work_with_us {
   width: 100%;
   background-color: #3eba3e;
