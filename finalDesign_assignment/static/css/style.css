@@ -10,12 +10,33 @@
   background-size: 50% 50%;
 }
 
+.header_list ul li a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #4caf50;
+  opacity: 0;
+  top: -1px;
+}
+
+.header_list ul li a {
+  display: inline-block;
+  padding: 10px 0;
+  position: relative;
+}
+.header_list ul li:hover a:before {
+  opacity: 1;
+}
+
 .menu:hover ~ .header_list ul li {
   display: block;
 }
 .switch {
   margin-left: 40%;
   float: left;
+  padding: 10px 0;
 }
 .switch a {
   font-family: NautilusPompilius;
@@ -28,7 +49,7 @@
   float: right;
   width: 189px;
   background-color: #e8e7e7;
-  margin-top: 5px;
+  margin: 10px 0;
   display: none;
 }
 .search a {
@@ -98,6 +119,7 @@ input {
   text-align: center;
   margin: 0 auto;
   margin-top: 5%;
+  padding: 1%;
 }
 .learn_more_button a {
   color: white;
@@ -192,9 +214,14 @@ input {
   top: 28px;
   margin: 1%;
 }
+.photos ul li img:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px 0px;
+}
 .photos ul li img {
   width: 100%;
   height: 100%;
+  transition: transform 0.5s;
 }
 .view_more_work {
   margin: 0 auto;
@@ -247,6 +274,11 @@ input {
   margin: 0 auto;
   width: 90%;
   margin-top: 5%;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.company_logo ul li:hover {
+  transform: scale(1.1);
 }
 .see_all_client {
   background-color: #dddcdc;
@@ -313,8 +345,8 @@ input {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
   padding: 1%;
 }
-.work_with_us_button a:hover {
-  color: #3eba3e;
+.work_with_us_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px 0px;
 }
 .about_us {
   text-align: center;
@@ -328,9 +360,11 @@ input {
 }
 .recent_posts {
   margin: 0 auto;
-  text-align: center;
   margin-top: 5%;
   width: 100%;
+}
+.recent_posts a {
+  text-align: center;
 }
 .about_us p {
   margin-top: 5%;
@@ -356,6 +390,7 @@ input {
   margin-top: 3.5%;
   display: inline-block;
   width: 63%;
+  margin-left: 5%;
 }
 .posts_details {
   overflow: hidden;
@@ -380,22 +415,18 @@ input {
   border-radius: 5px;
   background-color: #089dea;
   width: 107px;
-  margin-left: 5%;
-
   overflow: hidden;
 }
 .type4 {
   border-radius: 5px;
   background-color: #f34d04;
-  width: 47px;
-
+  width: 77px;
   overflow: hidden;
 }
 .type5 {
   border-radius: 5px;
   background-color: #ffba00;
   width: 77px;
-
   overflow: hidden;
 }
 .type1,
@@ -403,9 +434,15 @@ input {
 .type3,
 .type4,
 .type5 {
-  margin: 0px auto 0px 15%;
   font-size: 8pt;
   margin-top: 2px;
+}
+.type1,
+.type2,
+.type3,
+.type4,
+.type5 a {
+  padding: 1%;
 }
 .contact_us {
   text-align: center;
@@ -467,6 +504,9 @@ input {
 }
 .scroll_down a {
   color: black;
+}
+.recent_title {
+  text-align: center;
 }
 .about_us,
 .recent_posts,
@@ -671,9 +711,7 @@ input {
   .type4,
   .type5 {
     margin: 0 auto;
-
     float: left;
-    margin-left: 15%;
   }
   .news_logo {
     text-align: center;
