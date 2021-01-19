@@ -1,23 +1,27 @@
-body{
+body {
   background-image: url(../assets/1567666.png);
 }
 
 table.tableSimple {
-    margin: auto;
-    border: 1px solid black;
+  margin: auto;
+  border: 1px solid black;
 }
-h3,h1,h2{
+h3,
+h1,
+h2 {
   text-align: center;
   color: #fff;
 }
 
 .headDiv {
-    text-align: center;
-    margin: auto;
-    width: 50%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
-table, th, td{
+table,
+th,
+td {
   background-color: #66ccff;
   border: 1px solid #ddd;
   margin-left: auto;
@@ -25,7 +29,8 @@ table, th, td{
   align-content: center;
 }
 
-th, td{
+th,
+td {
   text-align: center;
-  padding: 20px;
+  padding: 12px;
 }
